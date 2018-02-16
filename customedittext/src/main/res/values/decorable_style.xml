@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="customEdit">
+        <attr name="isPassword" format="boolean" />
+        <attr name="hint" format="string"/>
+        <attr name="errorMessage" format="string"/>
+        <attr name="inputType" format="enum">
+            <enum name="email" value="1"/>
+            <enum name="password" value="2"/>
+            <enum name="text" value="3"/>
+            <enum name="phone" value="4"/>
+            <enum name="numberPassword" value="5"/>  <!--For four digit passCode in Speed Remit Amar 2/07/2017 -->
+            <enum name="multilineText" value="6"/> <!--Multiline textField Amar 2017/10/16 -->
+            <enum name="alphaNumeric" value="7"/> <!--Multiline textField Amar 2017/10/16 -->
+            <enum name="address" value="8"/> <!--Multiline textField Amar 2017/10/16 -->
+        </attr>
+        <attr name="clickAble" format="boolean"/>
+
+    </declare-styleable>
+</resources>
